@@ -48,10 +48,10 @@
 	<string name="download_error_corrupt">"Il file scaricato è danneggiato! Riprova. "</string>
 
 	<string name="download_error_internal">"Errore interno."</string>
-	<!-- TODO: translate this string below -->
-	<string name="download_error_unsuccessful_response"><![CDATA[It seems that the download link is invalid. This could either mean we made a mistake while adding update data, or OnePlus has pulled/removed the update file from their servers. A notification has been sent to the team, and we\'ll look into this ASAP.
+	
+	<string name="download_error_unsuccessful_response"><![CDATA[Sembra che il link di download sia scaduto. Questo potrebbe essere causato da un nostro errore o perché OnePlus ha rimosso il download dai propri server. Un messaggio e\' stato mandato agli amministratori che controlleranno il prima possibile.
 
-If you\'d like to know more, feel free to contact us either via <a href="mailto:support@oxygenupdater.com">email</a> or on our <a href="https://discord.gg/5TXdhKJ">Discord server</a>.]]></string>
+Se vuoi altre informazioni, contattaci via <a href="mailto:support@oxygenupdater.com">email</a> o entra nel nostro <a href="https://discord.gg/5TXdhKJ">Server Discord</a>.]]></string>
 	<string name="download_error_could_not_move_temp_file">Il file e\' stato scaricato ma non e\' stato possibile spostarlo. Apri un file manager, naviga a \"%1$s\" e sposta il file nella cartella più\' in alto di internal storage.</string>
 	<string name="download_error_server">"Errore nel server."</string>
 	<string name="download_error_retry">"RIPROVA"</string>
@@ -174,7 +174,7 @@ Trascina verso sinistra per continuare"</string>
 	<string name="onboarding_page_3_title">"Seleziona il tuo metodo d'aggiornamento. "</string>
 	<string name="onboarding_page_3_caption">"Di solito, l'aggiornamento progressivo e' la scelta corretta, perche' offre download molto più facili e piccoli.
 
-Pero', non completamente comnpatibili con dispositivi rootati. Se hai un dispositivo con root, seleziona l'aggiornamento completo.
+Pero', non completamente compatibili con dispositivi rootati. Se hai un dispositivo con root, seleziona l'aggiornamento completo.
 
 Se hai una versione beta, seleziona una delle opzioni Open Beta.
 
@@ -353,15 +353,15 @@ Continua giu' per sfogliare."</string>
 	<string name="help_updating_your_device_title">"Aggiornando il tuo dispositivo"</string>
 	<string name="help_updating_your_device_text">"Quando apri l'app, potrai vedere se e' disponibile un aggiornamento. Se lo e', puoi istallarlo.
 
-Per avviare l'istallazione, premi \"Download\". Al completamento del download, la schermata d'istallazione si aprira'. Se hai chiuso l'app, premi su \"Istalla\" che e' ora visibile accanto al bottone \"Download\".
+Per avviare l'installazione, premi \"Download\". Al completamento del download, la schermata d'istallazione si aprira'. Se hai chiuso l'app, premi su \"Istalla\" che e' ora visibile accanto al bottone \"Download\".
 
-La schermata d'istallazione verifichera' prima se hai un dispositivo con root. Se si', autorizza l'app quando richiesto e scegli come installare l'aggiornamento. Altrimenti, segui le istruzioni per l'istallazione manuale.
+La schermata d'installazione verifichera' prima se hai un dispositivo con root. Se si', autorizza l'app quando richiesto e scegli come installare l'aggiornamento. Altrimenti, segui le istruzioni per l'istallazione manuale.
 
-Istallazione Automatica:
+Installazione Automatica:
 Devi soltanto scegliere le opzioni d'istallazione. Quelle predefinite sono consigliate, eccetto l'impostazione per il pacchetto root nel caso volessi mantenerlo, che va selezionato. Seleziona il paccheto (file zip) usando il bottone blu e premendo su \"Avvia Istallazione\" per avviare la istallazione.
 
 
-Istallazione Manuale:
+Installazione Manuale:
 Ti verra' mostrata una guida sul tuo schermo. E' consigliato scriversi i passi necessari ed effettuarli come scritti per installare l'aggiornamento."</string>
 	<string name="help_reading_news_title">"Leggendo le ultime novità"</string>
 	<string name="help_reading_news_text">"Le novità sono a sinistra della schermata info aggiornamenti. Il più recente e' mostrato in alto. Premi su uno di questi per leggerlo. "</string>
@@ -385,10 +385,10 @@ Non riesci a visualizzare le opzioni per i dispositivo e i metodi d'aggiornament
 	<string name="news_load_network_error">"Errore nell'aprire l'articolo. Controlla la tua connesisone e ritenta."</string>
 	<!-- TODO: translate this string below -->
 	<string name="news_load_id_error"><![CDATA[Failed to open article from an invalid URL: %1$s. Check the URL or report this to us either via <a href="mailto:support@oxygenupdater.com">email</a> or on our <a href="https://discord.gg/5TXdhKJ">Discord server</a>.]]></string>
-	<!-- TODO: translate these 3 strings below -->
-	<string name="news_unread_count_1">Hai %1$d articoli non letti. Tap here to view them.</string>
-	<string name="news_unread_count_2">Hai %1$d articoli non letti. Tap to show all articles.</string>
-	<string name="news_mark_all_read">Mark all articles as read</string>
+	
+	<string name="news_unread_count_1">Hai %1$d articoli non letti. Premi qui per vederli.</string>
+	<string name="news_unread_count_2">Hai %1$d articoli non letti. Premi qui per mostrare tutti gli articoli.</string>
+	<string name="news_mark_all_read">Segna tutti gli articoli come gia\' letti</string>
 	<string name="news_empty_state_none_available_header">Nessun articolo disponibile</string>
 	<string name="news_empty_state_all_read_header">Non c\'e\' piu\' nulla da leggere!</string>
 	<string name="news_empty_state_none_available_text">Non c\'e\' nulla da leggere, riprova piu\' tardi.</string>
